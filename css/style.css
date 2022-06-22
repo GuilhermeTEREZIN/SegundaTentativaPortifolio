@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body{
+    margin: 0;
+}
+.logo{
+    margin-left: 5%;
+    color: #111;
+}
+span{
+    color: #d40000;
+}
+#com:hover{
+    transition: 500ms;
+    color: royalblue;
+}
+#terezin:hover{
+    transition: 500ms;
+    color: royalblue;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.infos{
+
+    margin-top: 2%;
+    margin-right: 10%;
+}
+#contact{
+    margin-left: 60px;
+}
+#jobs{   
+    font-size: bold;
+    margin-left: 50px;
+}
+#about, #jobs, #contact{
+    color: #111;
+    text-decoration: none;
+}
+#about:hover, #jobs:hover, #contact:hover{
+    color: #d40000;
+    text-decoration: none;
+}
+/* }
+.txt{
+    margin-left: 10%;
+    margin-top: 15%;
+} */
+
+#hi{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+#meuNome{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 10%;
+
+}
+#nome{
+    position: absolute;
+    margin-left: 10%;
+    margin-bottom:5%;
+    margin-top: 14%;
+    font-size: 60px;
+}
+#aluno{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-bottom: 20%;
+}
+#foto{
+    margin-left: 65%;
+    margin-top: 5%;
+}
+
+
+/* about.html */
+.sobre{
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    margin-left: 35%;
+    margin-top: 14%;
+    /* margin-right: 40%; */
+    justify-content:center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;  
+} 
+
+#Voltar{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 2%;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+#Voltar:hover{
+    color: #d40000;
+    transition: 500ms;
+}
+
+#amig{
+    margin-left: 8%;
+}
+#dog{
+    margin-left: 70%;
+}
+#ttlabout{
+    font-weight:bold;
+}
+#content{
+    font-weight:400;
+}
+
+
+
+/* ////// CONTATO /////// */
+.contact{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+#img{
+    margin-left: 4%;
+}
+.insta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.face{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* #insta{
+    margin-bottom: 10%;
+} */
+
+#Voltar2{
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-weight: 600;
+}
+#Voltar2:hover{
+    color: #d40000;
+    transition: 500ms;
+
+}
+
+
+/* /////// TRABALHOS ////////// */
+
+#titulo{
+    text-align: center;
+}
+#imgm{
+    width: 300px;
+}
+.jogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#voltar3{
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-weight: 600;
+}
+#voltar3:hover{
+    color: #d40000;
+    transition: 500ms;
+
+}
+#txt1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+    height: 40%;
+    font-weight: 600;
+}
+#imgm2{
+    margin-top: 1%;
+    width: 300px;
+}
+
+
+
